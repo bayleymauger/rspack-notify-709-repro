@@ -1,0 +1,13 @@
+{
+  "name": "rspack-notify-709-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "rspack build --watch",
+    "repro": "node repro.mjs"
+  },
+  "devDependencies": {
+    "@rspack/cli": "2.2.9",
+    "@rspack/core": "2.2.9"
+  }
+}
